@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* CENTER BODY */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* CARD */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card-container:hover {
+    transform: translateY(-5px);
+}
+
+/* IMAGE */
+.image-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+/* TEXT */
+.text-container {
+    text-align: center;
+}
+
+.role {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.bio {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+/* BUTTONS */
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.button-container button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-container button:hover {
+    transform: scale(1.1);
+}
+
+/* TOGGLE BUTTONS */
+#toggle, #switch {
+    margin-top: 10px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
