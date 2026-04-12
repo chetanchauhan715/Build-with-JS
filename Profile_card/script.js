@@ -14,5 +14,19 @@ toggle_btn.addEventListener( 'click' , ()=>{
     
 });
 
+const switch_btn = document.getElementById("switch");
+const bio = document.querySelector(".bio");
 
+const texts = [
+    "DSA Warrior 💀",
+    "Frontend Learner ⚛️",
+    "Future MERN Dev 🚀",
+    "Code. Debug. Repeat. 🔁"
+];
+let index = 0;
+
+switch_btn.addEventListener("click" , ()=>{
+    index = (index+1) % texts.length;
+    bio.textContent = texts[index];
+});
 
