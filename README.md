@@ -47,17 +47,14 @@ An advanced counter with dynamic behavior and UI feedback.
 
 ---
 
-### 3️⃣ Hunt the Number 🎯 *(In Progress)*
+### 3. Password Generator 🔐
 
-A number guessing game where users try to find a hidden number.
+A dynamic password generator with:
 
-**✨ Planned Features:**
-
-* Random number generation
-* User input comparison
-* Feedback system (Too High / Too Low)
-* Attempt counter
-* Game reset system
+Custom length selection
+Multiple character options (A-Z, a-z, 0-9, symbols)
+Copy to clipboard feature
+Basic strength indicator
 
 ---
 
@@ -77,15 +74,15 @@ To strengthen my fundamentals in:
 * DOM manipulation
 * UI development
 * Problem-solving through real projects
+* Debugging and fixing edge cases
 
 ---
-
-## 📈 Progress
-
-* ✅ Project 1 Completed
-* ✅ Project 2 Completed
-* 🚧 Project 3 In Progress
-
+📁 Folder Structure
+Build-with-JS/
+│── Profile-Card/
+│── Smart-Counter/
+│── Password-Generator/
+│── README.md
 ---
 
 ## 💡 Future Improvements
@@ -104,3 +101,8 @@ To strengthen my fundamentals in:
 ---
 
 🔥 This repository represents my journey from learning basics to building real interactive web applications.
+
+
+⭐ Support
+
+If you like this repo, consider giving it a ⭐ — it motivates me to build more!
