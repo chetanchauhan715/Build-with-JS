@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 40px;
+    color: white;
+}
+
+.main-container{
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+#add-btn{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #3b82f6;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#add-btn:hover{
+    background: #2563eb;
+}
+
+#add-btn:active{
+    transform: scale(0.95);
+}
+
+#notes-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.note{
+    background: #0f172a;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.note p{
+    margin-bottom: 10px;
+}
+
+.note button{
+    margin-right: 10px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.note button:first-of-type{
+    background: #facc15;
+}
+
+.note button:last-of-type{
+    background: #ef4444;
+    color: white;
+}
