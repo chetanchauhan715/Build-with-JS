@@ -4,20 +4,20 @@ A collection of mini projects built while learning **JavaScript, DOM manipulatio
 
 ---
 
-## 📌 Projects Included
+# 📌 Projects Included
 
-### 1️⃣ Profile Card
+## 1️⃣ Profile Card
 
 A responsive profile card with interactive features.
 
-**✨ Features:**
+### ✨ Features:
 
 * Dark mode toggle 🌙
 * Dynamic bio text switcher 🔁
 * Social media links 🔗
 * Clean card UI design
 
-**🧠 What I Learned:**
+### 🧠 What I Learned:
 
 * DOM selection & manipulation
 * `classList` usage
@@ -26,11 +26,11 @@ A responsive profile card with interactive features.
 
 ---
 
-### 2️⃣ Smart Counter ⚡
+## 2️⃣ Smart Counter ⚡
 
 An advanced counter with dynamic behavior and UI feedback.
 
-**✨ Features:**
+### ✨ Features:
 
 * Increase / Decrease / Reset
 * Custom step input
@@ -38,7 +38,7 @@ An advanced counter with dynamic behavior and UI feedback.
 * Button disabling at limits
 * Dynamic color feedback (green/red)
 
-**🧠 What I Learned:**
+### 🧠 What I Learned:
 
 * State-based UI updates
 * Handling user input
@@ -47,18 +47,55 @@ An advanced counter with dynamic behavior and UI feedback.
 
 ---
 
-### 3. Password Generator 🔐
+## 3️⃣ Password Generator 🔐
 
-A dynamic password generator with:
+A dynamic password generator with customization options.
 
-Custom length selection
-Multiple character options (A-Z, a-z, 0-9, symbols)
-Copy to clipboard feature
-Basic strength indicator
+### ✨ Features:
+
+* Custom length selection
+* Multiple character options:
+
+  * Uppercase (A–Z)
+  * Lowercase (a–z)
+  * Numbers (0–9)
+  * Symbols
+* Copy to clipboard feature
+* Basic strength indicator
+
+### 🧠 What I Learned:
+
+* Random number generation
+* String building logic
+* Checkbox handling
+* Clipboard API usage
 
 ---
 
-## 🛠️ Tech Stack
+## 4️⃣ Smart Notes App 📝 *(NEW)*
+
+A dynamic notes application with persistent storage.
+
+### ✨ Features:
+
+* Add notes
+* Edit notes
+* Delete notes
+* Notes saved in `localStorage`
+* Data persists after refresh
+* Auto-render notes on page load
+
+### 🧠 What I Learned:
+
+* Dynamic DOM creation (`createElement`, `appendChild`)
+* Managing data using arrays
+* `localStorage` for persistence
+* `JSON.stringify` & `JSON.parse`
+* CRUD operations (Create, Read, Update, Delete)
+
+---
+
+# 🛠️ Tech Stack
 
 * HTML
 * CSS
@@ -66,7 +103,7 @@ Basic strength indicator
 
 ---
 
-## 🎯 Goal of This Repo
+# 🎯 Goal of This Repo
 
 To strengthen my fundamentals in:
 
@@ -77,24 +114,31 @@ To strengthen my fundamentals in:
 * Debugging and fixing edge cases
 
 ---
-📁 Folder Structure
+
+# 📁 Folder Structure
+
+```text
 Build-with-JS/
 │── Profile-Card/
 │── Smart-Counter/
 │── Password-Generator/
+│── Smart-Notes-App/
 │── README.md
+```
+
 ---
 
-## 💡 Future Improvements
+# 💡 Future Improvements
 
 * Better UI/UX design
 * Add animations
 * Convert projects into React components
 * Deploy projects online
+* Add more advanced projects
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Chetan Chauhan**
 
@@ -102,7 +146,8 @@ Build-with-JS/
 
 🔥 This repository represents my journey from learning basics to building real interactive web applications.
 
+---
 
-⭐ Support
+# ⭐ Support
 
 If you like this repo, consider giving it a ⭐ — it motivates me to build more!
