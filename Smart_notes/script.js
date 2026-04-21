@@ -2,9 +2,9 @@ const input = document.getElementById("note-input");
 const add_btn = document.getElementById("add-btn");
 const notes_box = document.getElementById("notes-container");
 
-notes = [];
+let notes = [];
 
-let saved = localStorage.getItem("notes");
+const saved = localStorage.getItem("notes");
 
 if(saved){
     notes = JSON.parse(saved);
