@@ -4,13 +4,17 @@ const notes_box = document.getElementById("notes-container");
 
 let notes = [];
 
+console.log("file run");
 
 // load from local storage
 const saved = localStorage.getItem("notes");
 if(saved){
-    notes = JSON.parse("notes");
-    renderAll();
+    notes = JSON.parse(saved);
 }
+console.log(notes);
+    renderAll();
+
+
 
 function validation(val){
     if(val.trim() === ""){
@@ -30,6 +34,9 @@ function createNoteCard(note){
 
     const card_text = document.createElement("p");
     card_text.textContent = note.text;
+
+    const time = document.createElement("small");
+    time.textContent = note.date || "No date";
 
     const edit_btn = document.createElement("button");
     edit_btn.textContent = "Edit";
@@ -53,6 +60,7 @@ function createNoteCard(note){
     });
 
     card_container.appendChild(card_text);
+    card_container.appendChild(time);
     card_container.appendChild(edit_btn);
     card_container.appendChild(delete_btn);
 
@@ -76,11 +84,16 @@ add_btn.addEventListener("click", ()=>{
     }
     const newNote = {
         id:Date.now(),
-        text:data
+        text:data,
+        date:new Date().toLocaleString()
     };
     notes.push(newNote);
+
+    console.log(notes);
     saveNotes();
     renderAll();
+
+    input.value = "";
 
 })
 
